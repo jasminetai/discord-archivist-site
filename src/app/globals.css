@@ -1,0 +1,60 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-dim-white: #cccccc;
+  --color-dimmer-white: #999999;
+  --color-dark-gray: #333333;
+  --color-arch-red: #600000;
+  --color-arch-dark-red: #200000;
+}
+
+:root {
+  --foreground: #ffffff;
+  --background: #000000;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+@layer base {
+  a:link {
+    @apply underline;
+  }
+
+  a:hover {
+    @apply text-dim-white;
+  }
+
+  a:active {
+    @apply text-dimmer-white;
+  }
+
+  article {
+    @apply mb-8;
+  }
+
+  h1 {
+    @apply text-xl my-4;
+  }
+
+  h1,
+  h2 {
+    @apply font-bold underline;
+  }
+
+  p,
+  ul,
+  h2 {
+    @apply mb-2;
+  }
+
+  ul {
+    @apply list-disc list-inside ml-4;
+  }
+
+  code {
+    @apply bg-dark-gray;
+  }
+}
