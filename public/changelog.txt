@@ -1,10 +1,10 @@
 TBD
 - package updates, code refactors for readability, and major node.js version upgrade from v18 -> v22
 - reworked weekly data collection to use transactions for more robustness
+- created a basic website for FAQs and changelog, linked in "help" command
 - reworded a couple command responses for clarity
-- created a basic site for FAQs and changelog, linked in "help" command (?)
 - during "add" command, bot posts error message in game chat if non-matching account joins verification lobby
-- "changelog" and "invite" commands removed due to lack of use and being superceded by site (?)
+- "changelog" and "invite" commands removed due to lack of use and being superceded by website
 
 12/25/2024
 - new command "charlb" shows strongest character leaderboards

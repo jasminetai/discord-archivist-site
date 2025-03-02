@@ -9,6 +9,9 @@ const inter = Roboto({
 });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: '/site_favicon.ico',
+  },
   title: 'Archivist',
   description: 'Discord bot for Super Bandit RIP',
 };

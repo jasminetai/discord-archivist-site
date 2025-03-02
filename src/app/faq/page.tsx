@@ -7,9 +7,9 @@ export default function Faq() {
       <h1>FAQ</h1>
 
       <p>
-        The bot&apos;s default prefix of <code>,</code> is used for all example commands. The prefix
-        may vary depending on a server&apos;s configuration, but can always be checked in the help
-        message accessed by entering <code>@Archivist</code> in the target server.
+        The default prefix of <code>,</code> is used for all example commands. The prefix may vary
+        depending on a server&apos;s configuration, but can always be checked in the help message
+        accessed by entering <code>@Archivist</code> in the target server.
       </p>
 
       <p>

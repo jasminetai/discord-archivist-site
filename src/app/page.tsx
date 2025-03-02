@@ -6,17 +6,18 @@ export default function Home() {
       <article>
         <h1>About</h1>
         <p>
-          Archivist is a Discord bot decked with commands for{' '}
-          <a href="https://bandit.rip">Super Bandit RIP</a>. Features include:
+          Archivist is a Discord bot equipped with commands that{' '}
+          <a href="https://bandit.rip">Super Bandit RIP</a> players will find useful. It features:
         </p>
         <ul>
-          <li>Easy lookups for profiles, leaderboards, and other game information</li>
-          <li>Opt-in stat-tracking for player and clan profiles</li>
-          <li>Graph visualizations of profile progress over time</li>
+          <li>Convenient lookups for profiles, leaderboards, and other game information</li>
+          <li>Opt-in stat-tracking service for player and clan profiles</li>
+          <li>Graph visualizations of profile statistics such as levels and KDR over time</li>
           <li>Enhanced statistical breakdowns of player profiles</li>
         </ul>
         <p>
-          Try it out in the <Link href="https://discord.gg/Gg9aMZJE5a">Bandit RIP Discord</Link>!
+          Try Archivist out in the{' '}
+          <Link href="https://discord.gg/Gg9aMZJE5a">Bandit RIP Discord</Link>!
         </p>
       </article>
 
