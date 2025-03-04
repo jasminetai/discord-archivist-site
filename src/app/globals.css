@@ -8,6 +8,11 @@
   --color-arch-dark-red: #200000;
 }
 
+@font-face {
+  font-family: 'keyvirtue';
+  src: url('/KeyVirtue.ttf') format('truetype');
+}
+
 :root {
   --foreground: #ffffff;
   --background: #000000;
@@ -56,5 +61,15 @@ body {
 
   code {
     @apply bg-dark-gray;
+  }
+
+  #bandit-rip::before {
+    content: 'B';
+    @apply text-[1.4rem] align-middle;
+  }
+
+  #bandit-rip::after {
+    content: ' RIP';
+    @apply text-[1.4rem];
   }
 }

@@ -3,7 +3,7 @@ import { Roboto } from 'next/font/google';
 import '@/app/globals.css';
 import Header from '@/app/components/header';
 
-const inter = Roboto({
+const roboto = Roboto({
   weight: ['400', '700'],
   subsets: ['latin'],
 });
@@ -23,9 +23,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased`}>
+      <body className={`${roboto.className} flex flex-col w-full min-h-screen antialiased`}>
         <Header />
-        <main className="p-8 sm:px-16">{children}</main>
+        <main className="flex-grow px-8 py-4 sm:px-16">{children}</main>
       </body>
     </html>
   );

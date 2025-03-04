@@ -9,7 +9,7 @@ export default function Faq() {
       <p>
         The default prefix of <code>,</code> is used for all example commands. The prefix may vary
         depending on a server&apos;s configuration, but can always be checked in the help message
-        accessed by entering <code>@Archivist</code> in the target server.
+        accessed by entering <code>@Archivist</code> in a server channel.
       </p>
 
       <p>
