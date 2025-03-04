@@ -4,6 +4,7 @@ import { Jersey_20 } from 'next/font/google';
 
 const jersey = Jersey_20({
   weight: ['400'],
+  subsets: ['latin'],
 });
 
 export default function Header() {
