@@ -25,7 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${roboto.className} flex flex-col w-full min-h-screen antialiased`}>
         <Header />
-        <main className="flex-grow px-8 py-4 sm:px-16">{children}</main>
+        <main className="flex-grow px-8 py-3 sm:px-16">{children}</main>
       </body>
     </html>
   );

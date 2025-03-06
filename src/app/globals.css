@@ -5,7 +5,6 @@
   --color-dimmer-white: #999999;
   --color-dark-gray: #333333;
   --color-arch-red: #600000;
-  --color-arch-dark-red: #200000;
 }
 
 @font-face {
@@ -20,7 +19,22 @@
 
 body {
   color: var(--foreground);
-  background: var(--background);
+
+  /* Background derived from https://css-pattern.com */
+  --s: 70px;
+  --c1: #000000;
+  --c2: #181818;
+  --_g:
+    var(--c1) 0% 20%, var(--c2) 21% 30%, var(--c1) 31% 46%, var(--c2) 47% 56%, var(--c1) 57% 72%,
+    var(--c2) 73% 82%, var(--c1) 81% 96%, #0000 97%;
+
+  background:
+    radial-gradient(50% 50% at 100% 0, var(--_g)),
+    radial-gradient(50% 50% at 0 100%, var(--_g)),
+    radial-gradient(50% 50%, var(--_g)),
+    radial-gradient(50% 50%, var(--_g)) calc(var(--s) / 2) calc(var(--s) / 2) var(--c1);
+
+  background-size: var(--s) var(--s);
 }
 
 @layer base {
