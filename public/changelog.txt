@@ -1,6 +1,6 @@
-TBD
+03/07/2025
 - package updates, code refactors for readability, and major node.js version upgrade from v18 -> v22
-- reworked weekly data collection to use transactions for more robustness
+- reworked weekly data collection to use transactions to ensure atomicity
 - fixed bug where bot status disappeared occasionally
 - created a basic website for FAQs and changelog, linked in "help" command
 - reworded a couple command responses for clarity
