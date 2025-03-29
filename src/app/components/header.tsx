@@ -29,6 +29,7 @@ export default function Header() {
       </Link>
       <nav className="flex gap-4">
         <Link href="/faq">FAQ</Link>
+        <Link href="/character-stats">Character Stats</Link>
         <Link href="/changelog.txt">Changelog</Link>
       </nav>
     </header>

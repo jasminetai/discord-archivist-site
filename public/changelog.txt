@@ -1,3 +1,6 @@
+03/29/2025
+- added character stats to site
+
 03/16/2025
 - fixed bug with clan profiles being saved weekly with incorrectly assigned fields
 - froze output of stat ordering on "profile", "clan", "search", and "searchclan" commands
