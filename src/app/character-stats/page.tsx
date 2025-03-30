@@ -45,17 +45,28 @@ const getStatValueAsString = (key: string, data: GameDataObject) => {
 };
 
 export default async function CharacterStats() {
+  const mapDatas: GameDataObject = {};
   const classDatas: GameDataObject = {};
   const rows: { [key: string]: string }[] = [];
 
   const gameFetch = await fetch('https://bandit.rip/dist/game.js');
   const gameData = await gameFetch.text();
+
+  eval(
+    gameData.slice(
+      gameData.indexOf('mapDatas["default"]='),
+      gameData.indexOf(';', gameData.indexOf('mapDatas["default"]=')),
+    ),
+  );
   eval(
     gameData.slice(
       gameData.indexOf('classDatas["default"]'),
       gameData.indexOf('window["spritesDatas"]'),
     ),
   );
+
+  const gravity = mapDatas.default.gravity;
+  const maxFallDy = mapDatas.default.maxfalldy;
 
   for (const key in classDatas) {
     const data: GameDataObject = classDatas[key];
@@ -79,7 +90,15 @@ export default async function CharacterStats() {
     <article>
       <h1>Character Stats</h1>
 
-      <p className="mb-4">For a character with name &ldquo;Name&rdquo; and an alternate form, the corresponding entry for the alternate form is denoted as &ldquo;Name (2)&rdquo;.</p>
+      <section className="mb-6">
+        <p>
+          For a character with name &ldquo;Name&rdquo; and an alternate form, the corresponding entry
+          for the alternate form is denoted as &ldquo;Name (2)&rdquo;.
+        </p>
+        <p>
+          To help contextualize the numbers, note that the game uses a gravity value of {gravity} and a max fall dy of {maxFallDy}.
+        </p>
+      </section>
 
       <TableContainer component={Paper}>
         <Table size="small" aria-label="character stats table">
