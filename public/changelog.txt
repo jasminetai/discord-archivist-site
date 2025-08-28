@@ -37,51 +37,51 @@
 - new command "bestchars" shows up to three highest-leveled characters for a player
 - reformatted "skins" command, which now attempts inference at pack names based on names used in game code
 
-1/25/2024
+01/25/2024
 - new command "skins" gives player skin statistics
 - removed a couple seldom-checked stat fields in "stats" command
 
-1/18/2024
+01/18/2024
 - new commands "lb" and "clanlb" show player and clan leaderboards respectively
 
-3/19/2023
+03/19/2023
 - new command "players" shows number of players online (total and per region)
 
-9/15/2022
+09/15/2022
 - general code refactoring and package updates
 - improved command name/argument parsing
 - removed multiple graph flags and "changelog" command's pagination due to lack of use
 - more specific command responses to certain scenarios, such as the user not having added their account yet
 - bot responds with help embed upon mention
 
-8/16/2022
+08/16/2022
 - "graph" and "graphclan" commands now show up to the last 20 data points instead of 10
 - minor visual changes made to keep graphs from looking overcrowded
 
-7/12/2022 - tournament history integration
+07/12/2022 - tournament history integration
 - new command "th" lists tournament history for an account
 - new command "thstats" provides basic statistics calculated from tournament history
 
-7/1/2022
+07/01/2022
 - new command "rolelist" to list people with a certain role (for tourney purposes)
 
-6/26/2022
+06/26/2022
 - "stats" command accepts optional name input for account-specific numbers and calculations
 - "graph" and "graphclan" commands have been reworked to be cleaner and simpler; use flag arguments to specify graph options
 - "graph" command has new option for graphing average KADR/KDR between data points
 - added stat-tracking and profile support for coins
 
-5/28/2022
+05/28/2022
 - new command "invite" gives information regarding inviting the bot to servers
 
-5/25/2022 - clans stat-tracking
+05/25/2022 - clans stat-tracking
 - condensed "list"/"unlist" commands into "toggle", which will flip stat-tracking on and off for an account
 - new commands "addclan" and "toggleclan" are only usable by clan leaders, but they are otherwise analogous to add and toggle
 - new commands "searchclan" and "graphclan" are analogous to "search" and "graph" for clans
 - registered clans, like individual accounts, are updated weekly
 
-5/22/2022
+05/22/2022
 - added super basic bot support for clans
 
-5/15/2022
+05/15/2022
 - initial bot release!
