@@ -1,4 +1,4 @@
-09/01/2025 - level/score, player count graphs, skin stats
+08/27/2025 - level/score, player count graphs, skin stats
 - new command "levelup" computes approximate scores for levels and additional score needed to get to the next level
 - new command "graphplayers" graphs number of players online over time (total, NA, EU, and Asia)
   - 24h player count graph visualizes player count for the past 24h, working backwards from the current hour
