@@ -71,13 +71,47 @@ export default function Faq() {
           <p>
             In general, it&apos;s a good idea to check that you are using a command correctly by
             doing <code>,help &lt;command&gt;</code>, which will give the required format for the
-            specified command (e.g. <code>,help add</code> for the <code>add</code> command). If you
-            are trying to use one of the two graph-related commands, you can get more detailed
-            guidance with <code>,graph help</code> or <code>,graphclan help</code>.
+            specified command (e.g. <code>,help add</code> for the <code>add</code> command). For a
+            couple of the graphing commands, you can also get more detailed guidance with
+            <code>,graph help</code> or <code>,graphclan help</code>.
           </p>
           <p>
-            If you aren&apos;t seeing any response, you may also want to check that Archivist is
-            able to access the channel you&apos;re trying to run commands in.
+            If you aren&apos;t seeing any response, you may want to check that Archivist is able to
+            access the channel you&apos;re trying to run commands in.
+          </p>
+          <p>
+            Archivist has rarely ever experienced unexpected downtime due to bugs and crashes, but
+            if you suspect something&apos;s amiss, reach out and we can look into it.
+          </p>
+        </FaqEntry.Answer>
+      </FaqEntry>
+
+      <FaqEntry>
+        <FaqEntry.Question>
+          What&apos;s the level formula used in <code>,levelup</code>?
+        </FaqEntry.Question>
+        <FaqEntry.Answer>
+          <p>
+            It isn&apos;t the official level formula, that&apos;s not something publicly known, but
+            it&apos;s a pretty decent approximation derived from community data. You can find out
+            more about it in{' '}
+            <Link href="https://docs.google.com/spreadsheets/d/19Af03_E2K_UDgOHywRaoeZuAa0ZmAiI16XN_sW8o3Pg/edit?usp=sharing">
+              this spreadsheet
+            </Link>
+            . Shoutout to players Houou and Memerea (@BanditRipMedia) for contributing quite a few
+            data points!
+          </p>
+        </FaqEntry.Answer>
+      </FaqEntry>
+
+      <FaqEntry>
+        <FaqEntry.Question>I want to delete my data from Archivist.</FaqEntry.Question>
+        <FaqEntry.Answer>
+          <p>
+            We don&apos;t recommend doing this unless you&apos;re completely sure about it; although
+            we do perform regular data backups, those aren&apos;t intended for restoring individual
+            player data, so consider data deletion a permanent operation. If you&apos;re sure,
+            though, please reach out to @Dreamery.
           </p>
         </FaqEntry.Answer>
       </FaqEntry>

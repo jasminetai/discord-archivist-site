@@ -1,3 +1,17 @@
+09/01/2025 - level/score, player count graphs, skin stats
+- new command "levelup" computes approximate scores for levels and additional score needed to get to the next level
+- new command "graphplayers" graphs number of players online over time (total, NA, EU, and Asia)
+  - 24h player count graph visualizes player count for the past 24h, working backwards from the current hour
+  - long-term peak player count graph visualizes player count over ~3 months (not exactly visible now, but this can be adjusted once we have enough data for 3 months)
+- new command "skinstats" shows skin name/ID, image asset, and estimated rarities based on accounts registered with bot
+- new command "skinlist" shows rundown of skin inventory using official skin names for a given account
+- command "changelog" returns as a lazy link to this page to increase likelihood of people realizing it exists
+- switched out GMT timestamps for Discord's dynamic timestamps in some non-code-block commands, so those commands now show times in *your* timezone
+- removed the note about programmatically obtained pack names in command "skins"
+- increased idle timeout of pagination buttons from 60s to 120s (i.e. button interactions succeed if within 120s of last interaction with same message)
+- reorganized commands in help embed so that command modules are less dense
+- updated FAQ page on site with info on level formula used for "levelup" command and data deletion
+
 06/20/2025
 - added option to filter by year in "search" and "searchclan" commands
 - marginally improved error messages for said search commands

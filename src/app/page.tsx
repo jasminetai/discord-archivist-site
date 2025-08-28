@@ -36,8 +36,8 @@ export default function Home() {
           RIP.
         </p>
         <p>
-          If you are still interested in adding Archivist to your server, reach out to @Dreamery in
-          the official Bandit RIP Discord.
+          If you are still interested in adding Archivist to your server, reach out to @Dreamery
+          from the official Bandit RIP Discord.
         </p>
       </article>
     </>
