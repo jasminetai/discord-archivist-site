@@ -1,3 +1,12 @@
+12/03/2025
+- reworked "graphplayers" command:
+  - former long-term graph renamed to short-term, with max number of points reduced from 100 to 72 or readability
+  - new long-term graph plots peak player counts averaged per week over the past year
+  - added longer help command output
+- increased max number of points for "graph" command from 20 to 32
+- consolidated ",help graph" / ",graph help" and ",help graphclan" / ",graphclan help" into just ",help graph" and ",help graphclan" to reduce confusion
+- fixed issue where some commands would hang if the game site was down and keep hanging until it came back up again; those commands should now time out and return errors if game is down
+
 08/27/2025 - level/score, player count graphs, skin stats
 - new command "levelup" computes approximate scores for levels and additional score needed to get to the next level
 - new command "graphplayers" graphs number of players online over time (total, NA, EU, and Asia)
