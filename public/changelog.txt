@@ -1,9 +1,9 @@
 12/03/2025
 - reworked "graphplayers" command:
-  - former long-term graph renamed to short-term, with max number of points reduced from 100 to 72 or readability
+  - former long-term graph renamed to short-term, with max number of points reduced from 100 to 72 for readability
   - new long-term graph plots peak player counts averaged per week over the past year
   - added longer help command output
-- increased max number of points for "graph" command from 20 to 32
+- increased max number of points for "graph" and "graphclan" commands from 20 to 32
 - consolidated ",help graph" / ",graph help" and ",help graphclan" / ",graphclan help" into just ",help graph" and ",help graphclan" to reduce confusion
 - fixed issue where some commands would hang if the game site was down and keep hanging until it came back up again; those commands should now time out and return errors if game is down
 
