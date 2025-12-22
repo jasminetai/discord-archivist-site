@@ -1,3 +1,9 @@
+12/21/2025
+- new command "rankedlb" shows ranked leaderboard
+- added new "ranked" field to profile-related commands
+  - default value is 1000.00 for any profiles that were stat-tracked before ranked mode was introduced
+- added rank graphs to "graph" command
+
 12/03/2025
 - reworked "graphplayers" command:
   - former long-term graph renamed to short-term, with max number of points reduced from 100 to 72 for readability
