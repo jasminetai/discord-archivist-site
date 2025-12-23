@@ -49,7 +49,7 @@ export default async function CharacterStats() {
   const classDatas: GameDataObject = {};
   const rows: { [key: string]: string }[] = [];
 
-  const gameFetch = await fetch('https://bandit.rip/dist/game.js');
+  const gameFetch = await fetch('https://bandit.rip/dist/game.js', { cache: 'no-store' })
   const gameData = await gameFetch.text();
 
   eval(
