@@ -1,3 +1,7 @@
+12/26/2025
+- fixed some leftover pointers to ",graph help" instead of ",help graph" in error messages
+- added links to help find official skin IDs/names to error messages for "skinstats" command
+
 12/21/2025
 - new command "rankedlb" shows ranked leaderboard
 - added new "ranked" field to profile-related commands
