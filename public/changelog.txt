@@ -1,3 +1,7 @@
+02/04/2026
+- revised output of "levelup" command to be more concise
+- added functionality to compute cumulative levels and estimated scores when providing a list of levels as input to "levelup" command
+
 12/26/2025
 - fixed some leftover pointers to ",graph help" instead of ",help graph" in error messages
 - added links to help find official skin IDs/names to error messages for "skinstats" command
