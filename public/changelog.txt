@@ -1,4 +1,5 @@
 02/04/2026
+- new command "score" computes approximate levels for scores
 - revised output of "levelup" command to be more concise
 - added functionality to compute cumulative levels and estimated scores when providing a list of levels as input to "levelup" command
 
